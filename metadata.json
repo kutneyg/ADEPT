@@ -1,0 +1,6 @@
+{
+  "name": "ADEPT Framework Workspace",
+  "description": "An interactive digital workspace for students to evaluate past experiences through the 5 ADEPT lenses (Actions, Data, Ethos, People, Tangibles) and map career thresholds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
