@@ -129,6 +129,21 @@ export default function ExperienceSelector({
         </div>
       </div>
 
+      {/* Shared Computer Privacy Notice */}
+      <div className="bg-amber-50/70 border border-amber-200/50 rounded-xl p-4 text-xs text-amber-900 flex items-start gap-3">
+        <div className="bg-amber-100/80 p-2 rounded-lg text-amber-800 shrink-0 select-none">
+          🔒
+        </div>
+        <div className="space-y-1">
+          <h4 className="font-bold text-amber-950 flex items-center gap-1.5">
+            Device Isolation & Browser Sandbox Privacy
+          </h4>
+          <p className="text-amber-900/90 leading-relaxed">
+            All evaluation models are stored <strong>strictly on your device's browser local memory (localStorage)</strong>. Other students or advisors using different machines or accounts won't see your work. However, if you are sharing this identical computer terminal, protect your database by clicking <strong>"Clear Current Session"</strong> in the top header bar before leaving, clearing out all active models.
+          </p>
+        </div>
+      </div>
+
       {/* Selector Grid of Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {experiences.map((exp) => {
