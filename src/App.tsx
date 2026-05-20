@@ -345,7 +345,8 @@ export default function App() {
 
                 {activeStep === "recommendations" && (
                   <Recommendations
-                    experience={currentExperience}
+                    experiences={experiences}
+                    currentExperience={currentExperience}
                     onDownloadJSON={handleDownloadWorkspaceJSON}
                     onPrint={triggerUnifiedPrint}
                   />
