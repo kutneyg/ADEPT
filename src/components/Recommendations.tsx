@@ -132,7 +132,7 @@ export default function Recommendations({
           <div className="space-y-1">
             <h2 className="text-xl md:text-2xl font-semibold tracking-tight">Your Custom Career Hypothesis Model</h2>
             <p className="text-xs text-indigo-200/80 max-w-2xl leading-relaxed">
-              Based on the ADEPT deconstruction, your professional seeking coordinates shouldn't start with arbitrary salary boards. To protect your well-being, anchor your future search on serving your target populations within culture structures that fit your nature.
+              Based on your ADEPT evaluation, you can anchor your future career search on serving your target populations within environments that align with your natural strengths.
             </p>
           </div>
 
@@ -266,7 +266,7 @@ export default function Recommendations({
               Portability Toolkit
             </h3>
             <p className="text-xs text-slate-500 leading-normal">
-              Export your deconstruct evaluation models so you can review them with an advisor or advisor team.
+              Export your evaluation models so you can review them with an advisor or advisor team.
             </p>
           </div>
 

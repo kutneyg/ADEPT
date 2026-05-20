@@ -79,9 +79,11 @@ export default function ExperienceSelector({
         <div>
           <h2 className="text-sm font-bold text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
             <Archive className="w-4 h-4 text-indigo-600" />
-            Evaluation Workspaces ({experiences.length})
+            Evaluate an Experience ({experiences.length})
           </h2>
-          <p className="text-xs text-slate-500">Choose a past experience or create a new model to deconstruct</p>
+          <p className="text-xs text-slate-500 max-w-2xl mt-0.5 leading-relaxed">
+            Experiences can be any finite project (such as internships, unpaid personal projects, public/community service, course projects, or student leadership). Select an Experience or Add a new experience.
+          </p>
         </div>
         
         {/* Actions row */}

@@ -356,9 +356,9 @@ export default function App() {
             <div className="text-center p-12 bg-white rounded-xl border border-dashed border-slate-200 shadow-2xs space-y-6">
               <AlertCircle className="w-12 h-12 text-slate-350 mx-auto" />
               <div className="space-y-2 max-w-md mx-auto">
-                <h3 className="font-bold text-slate-800 text-sm">No evaluation workspaces exist</h3>
+                <h3 className="font-bold text-slate-800 text-sm">No evaluated experiences yet</h3>
                 <p className="text-xs text-slate-500">
-                  This work area is private to you and completely empty. You can deconstruct a brand new experience from scratch or load the standard demonstration models.
+                  This work area is private to you and completely empty. You can evaluate any finite past project (such as internships, unpaid personal projects, service, course projects, or student leadership) or load the standard demonstration models.
                 </p>
               </div>
               <div className="flex flex-wrap items-center justify-center gap-3">
@@ -388,7 +388,7 @@ export default function App() {
           <div className="max-w-7xl mx-auto px-4 space-y-2">
             <p className="font-semibold text-slate-800">ADEPT Evaluation Framework • Digital Student Portfolio</p>
             <p className="text-[11px] text-slate-400">
-              Formulated for 1-on-1 university academic counseling, career exploration advising, and finite experience deconstruction.
+              Formulated for 1-on-1 university academic counseling, career exploration advising, and evaluating finite experiences.
             </p>
           </div>
         </footer>
@@ -524,7 +524,7 @@ export default function App() {
             {/* Career Hypotheses list print sheet */}
             <div className="space-y-4 pt-4">
               <h3 className="text-sm font-bold uppercase tracking-wide border-l-4 border-indigo-600 pl-2">4. Automated Career Hypothesis Probes</h3>
-              <p className="text-xs text-slate-500">Suggested active inquiry lines based on deconstructed thresholds for informational interviews:</p>
+              <p className="text-xs text-slate-500">Suggested active inquiry lines based on evaluated thresholds for informational interviews:</p>
               
               <ul className="space-y-3 text-xs">
                 {([
